@@ -3,7 +3,7 @@
         <div class="sidebar-logo">
           <!-- Logo Header -->
           <div class="logo-header" data-background-color="dark">
-            <a href="index.html" class="logo">
+            <a routerLink = '/homepage' class="logo">
               <img
                 src="assets/img/kaiadmin/logo_light.svg"
                 alt="navbar brand"
@@ -42,9 +42,10 @@
                 <div class="collapse" id="dashboard">
                   <ul class="nav nav-collapse">
                     <li>
-                      <a href="../demo1/index.html">
-                        <span class="sub-item">Dashboard 1</span>
+                      <a routerLink="/user-manager" routerLinkActive="active" ariaCurrentWhenActive="page">
+                        <span class="sub-item">User</span>
                       </a>
+                     
                     </li>
                   </ul>
                 </div>
